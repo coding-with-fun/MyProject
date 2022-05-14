@@ -1,6 +1,6 @@
 import * as express from "express";
 import { Request, Response } from "express";
-import { User } from "./entity/user.entity";
+import { User } from "./model/user.model";
 import { myDataSource } from "./app-data-source";
 
 // establish database connection
